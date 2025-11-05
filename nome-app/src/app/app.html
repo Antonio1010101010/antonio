@@ -1,0 +1,46 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" routerLink="/">ExplorApp</a>
+    <ul class="nav-list">
+      <li><a routerLink="/">Home</a></li>
+      <li><a routerLink="/gallery">Gallery</a></li>
+      <li><a routerLink="/about">Progettazione</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="container">
+  <router-outlet></router-outlet>
+</main>
+
+<footer class="site-footer">
+  <small>Applicazione demo — esercitazione (client-side).</small>
+</footer>
+
+<style>
+  :host { font-family: Inter, system-ui, Arial; display:block; padding:0; margin:0; color:#222; }
+  .site-header { background:#fff; border-bottom:1px solid #eee; padding:.6rem 1rem; position:sticky; top:0; z-index:50; }
+  .nav { display:flex; align-items:center; justify-content:space-between; max-width:1100px; margin:0 auto; }
+  .brand { font-weight:600; text-decoration:none; color:#2b6cff; }
+  .nav-list { list-style:none; display:flex; gap:0.6rem; margin:0; padding:0; }
+  .nav-list a { text-decoration:none; color:#333; padding:.35rem .5rem; border-radius:6px; }
+  .nav-list a:hover { background:#f3f6ff; }
+  .container { max-width:1100px; margin:1.2rem auto; padding:0 1rem; }
+  .site-footer { text-align:center; padding:1rem; color:#666; border-top:1px solid #eee; }
+</style>
+
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content above * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
